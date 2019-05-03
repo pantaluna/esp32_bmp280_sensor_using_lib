@@ -46,7 +46,7 @@ https://www.bosch-sensortec.com/bst/products/all_products/bmp280
 
 ## Sensor FAQ
 - OK 3.3V
-- Metrics: temperature, pressure (both in high precision).
+- Metrics: temperature, pressure (both in high precision). **No humidity (opposed to the BME280 sensor).**
 - Pressure sensor: 300 .. 1100 hPa. Pressure resolution: 0.16 Pa (not hectoPascal!). Altitude precision: 0.16 Pa is equivalent to +- 1 meter difference in altitude.
 - Temperature sensor range: -40°C .. +85°C. Temperature resolution 0.01°C.
 - Supports the I2C protocol (opposed to the timing sensitive 1-Wire protocol of the meteo sensors DHT11 and AM2320 from Aosong).
